@@ -1,13 +1,17 @@
-.navbar { 
-    display: inline-block;  
+.navbar {    
     border: 5px solid black; 
     width: 150px; 
-    list-style-type: none; 
-    padding: 15px 15px 15px 15px; 
+    list-style-type: none;   
     margin-top: 0; 
     margin-left: 10px; 
     text-align: center;
     background-color: lightseagreen;
     }
-    
+.navbar > li { 
+    display: inline-block;  
+    padding: 20px 0px 20px 0px;         
+    }    
+   
+
+
     
