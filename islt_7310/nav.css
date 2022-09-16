@@ -1,4 +1,4 @@
-ul li { 
+.navbar { 
     display: inline-block;  
     border: 5px solid black; 
     width: 150px; 
