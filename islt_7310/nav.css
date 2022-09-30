@@ -1,4 +1,4 @@
-.navbar { 
+.asdf { 
     display: inline-block;  
     border: 5px solid black; 
     width: 150px; 
@@ -9,3 +9,56 @@
     text-align: center;
     background-color: lightseagreen;
     }
+
+.nav {
+    background-color: lightseagreen;
+    list-style: none;
+    text-align: center;
+    padding: 20px 0px 20px 0;
+
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 20px 0px 20px 0px;
+    border: 5px solid black;
+    margin-left: 50px;
+    position: relative;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    padding: 20px 75px 20px 75px; 
+    
+}
+
+.nav > li > a:hover {
+    color: #ffffff;
+}
+
+
+nav ul li ul li {
+    margin-top: 30px;
+    list-style: none;
+    border: 5px solid black;
+    padding: 20px 0px 20px 0px;
+}
+
+nav ul li ul {
+     position: absolute;
+     display: none;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px 10px; 
+    text-decoration: none;
+    padding: 20px 75px 20px 75px;
+} 
+
+nav ul li ul li a:hover {
+    background-color: lightseagreen;
+} 
