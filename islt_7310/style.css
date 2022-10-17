@@ -4,7 +4,8 @@
 h1{color:#cdd9dd;font-size:30pt;font-family: serif;background-color:#000000;border: 5px solid #000099;padding: 10px; margin: 20px; text-align: center;}
 h3{color:#cdd9dd;font-size:20pt;text-align: center;}
 main p{color:#ff8c00;font-family:'Jost', sans-serif;}
-footer{border-top:4px solid #000099; padding-top: 1px; color:black;}
+footer{border-top:4px solid #000099; padding-top: 1px; color:black; background-color: #000000;}
+footer p{color: antiquewhite;}
 blockquote{text-align: center;}
 body{background-color: #45464d;}
 #intro{float: top; width: 1300px}
